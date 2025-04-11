@@ -1,0 +1,29 @@
+Structure du dossier pour le volume Windows-SSD
+Le numéro de série du volume est CA2B-6DEE
+C:.
+¦   collect.py
+¦   consumer_hdfs.py
+¦   docker-compose.yml
+¦   from_kafka.json
+¦   measurements.json
+¦   send_it.py
+¦   sensor.py
+¦   tree.txt
+¦   
++---hadoop
+    +---namenode
+        ¦   in_use.lock
+        ¦   
+        +---current
+                edits_0000000000000000001-0000000000000000001
+                edits_0000000000000000002-0000000000000000002
+                edits_0000000000000000003-0000000000000000003
+                edits_0000000000000000004-0000000000000000004
+                edits_inprogress_0000000000000000005
+                fsimage_0000000000000000000
+                fsimage_0000000000000000000.md5
+                fsimage_0000000000000000003
+                fsimage_0000000000000000003.md5
+                seen_txid
+                VERSION
+                
